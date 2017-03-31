@@ -1,6 +1,11 @@
+*{
+  text-align: center;
+  font-size: 40px;
+}
 .header{
   background-color: black;
   height: 100px;
+  color: white;
   }
   .half{
     background-color: yellow;
@@ -22,7 +27,26 @@
     background-color: purple;
     height: 100px;
   }
+  .images{
+    height: auto;
+    padding-left: 6%;
+    display: inline-block;
+  }
+  .full{
+    background-color: black;
+    height: 100px;
+    color: white;
+    }
 
+  .pic{
+    padding: 30px;
+    float: left;
+    padding-bottom: 0px;
+  }
+  .p{
+    padding: 0px;
+    margin: 0px;
+  }
 
 [class*="mkd-"] {
     float: left;
